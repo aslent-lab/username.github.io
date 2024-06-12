@@ -1,0 +1,70 @@
+git clone https://github.com/username/username.github.io
+cd username.github.io
+# <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sylvie Vincent Massage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sylvie Vincent Massage</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#temoignages">Témoignages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <h2>Bienvenue chez Sylvie Vincent Massage</h2>
+        <p>Découvrez nos services de massage suédois et bien plus encore.</p>
+    </section>
+
+    <section id="apropos">
+        <h2>À propos de Sylvie Vincent</h2>
+        <p>Sylvie Vincent est une masseuse professionnelle avec des années d'expérience...</p>
+    </section>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <ul>
+            <li>Massage Suédois</li>
+            <li>Massage Deep Tissue</li>
+            <li>Massage Relaxant</li>
+        </ul>
+    </section>
+
+    <section id="temoignages">
+        <h2>Témoignages</h2>
+        <p>"Le meilleur massage que j'ai jamais eu!" - Client Satisfait</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom">
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message :</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sylvie Vincent Massage. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
+git add .
+git commit -m "Initial commit"
+git push origin main
